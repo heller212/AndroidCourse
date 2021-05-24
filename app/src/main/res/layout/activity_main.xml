@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AA345678"
+    android:background="#E6E6FA"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -30,13 +30,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginRight="8dp"
         android:ems="20"
-        android:fontFamily="sans-serif-thin"
-        android:hint="name"
+        android:fontFamily="sans-serif"
+        android:hint="What's up?"
         android:inputType="textShortMessage"
-        android:text="What's up?"
-        android:textSize="12sp" />
+        android:textSize="20sp" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -48,6 +48,7 @@
         android:textSize="12sp" />
 
     <Switch
+        android:id="@+id/aSwitch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -55,6 +56,7 @@
         android:layout_marginRight="8dp" />
 
     <CheckBox
+        android:id="@+id/aCheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
